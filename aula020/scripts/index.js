@@ -1,0 +1,1 @@
+const toggleModal = () => document.querySelector('div.modal-overlay').classList.toggle('hide')

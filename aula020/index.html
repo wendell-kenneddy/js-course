@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identifier</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./scripts/index.js" type="text/javascript" charset="utf-8"
+    defer></script>
+</head>
+
+<body>
+  <header id="page-header">
+    <h1>Identifier</h1>
+  </header>
+
+  <main class="container">
+    <section id="registered-persons">
+      <h2>Pessoas Registradas</h2>
+
+      <a href="#" id="new-entry" onclick="toggleModal()">Adicionar registro</a>
+
+      <table id="persons-table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Peso</th>
+            <th>Altura</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Wendell</td>
+            <td>Kenneddy</td>
+            <td>50</td>
+            <td>1.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <div class="modal-overlay hide">
+    <div class="modal">
+      <form action="#">
+        <label for="name">Seu nome</label>
+        <input type="text" id="name" name="name">
+        <label for="nickname">Seu sobrenome</label>
+        <input type="text" name="nickname" id="nickname">
+        <label for="weight">Seu peso</label>
+        <input type="number" name="weight" id="weight" step="1">
+        <label for="height">Sua altura em metros</label>
+        <input type="number" name="height" id="height" step="1">
+        <div class="user-actions">
+          <button onclick="toggleModal()">Submit</button>
+          <a href="#" onclick="toggleModal()">Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
