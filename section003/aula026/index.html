@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="http-equiv" content="text/html" charset="UTF-8">
+  <meta name="http-equiv" content="text/css" charset="UTF-8">
+  <meta name="http-equiv" content="text/javascript" charset="UTF-8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Wendell Kenneddy">
+  <meta name="creator" content="Wendell Kenneddy">
+  <meta name="description"
+    content="Uma aplicação que calcula seu Índice de Massa Corṕorea.">
+  <meta name="keywords" content="IMC">
+  <meta property="og:title" content="Tabela IMC - Calcule seu IMC">
+  <meta property="og:description"
+    content="Uma aplicação que calcula seu Índice de Massa Corṕorea.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tabela IMC - Calcule seu IMC">
+  <meta property="og:locale" content="pt-BR">
+  <meta property="og:image" content="./.github/final-result.png">
+  <title>Tabela IMC - Calcule seu IMC</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+  <header id="page-header" class="sr-only" role="heading">
+    <h1>Tabela IMC</h1>
+  </header>
+
+  <main class="container" role="main">
+    <section>
+      <h2>Calcule seu IMC</h2>
+      <div class="list-container">
+        <ul>
+          <li>
+            <span>IMC</span>
+            <span>Resultado</span>
+          </li>
+          <li>
+            <span>Menos que 18,5</span>
+            <span>Abaixo do peso</span>
+          </li>
+          <li>
+            <span>Entre 18,5 e 24,9</span>
+            <span>Peso normal</span>
+          </li>
+          <li>
+            <span>Entre 25 e 29,9</span>
+            <span>Sobrepeso</span>
+          </li>
+          <li>
+            <span>Entre 30 e 34,5</span>
+            <span>Obesidade grau 1</span>
+          </li>
+          <li>
+            <span>Entre 35 e 39,9</span>
+            <span>Obesidade grau 2</span>
+          </li>
+          <li>
+            <span>Acima de 40</span>
+            <span>Obesidade grau 3</span>
+          </li>
+        </ul>
+      </div>
+
+      <form action="#" onsubmit="Form.submit(event)">
+        <label for="weight">Seu peso em quilos</label>
+        <input type="number" name="weight" id="weight" step="0.01">
+        <label for="height">Sua altura em metros</label>
+        <input type="number" name="height" id="height" step="0.01">
+        <button>Calcular</button>
+      </form>
+
+      <p id="result">O resultado aparecerá aqui.</p>
+    </section>
+
+    <div class="toast fadein hide">
+      <p></p>
+      <img src="./assets/x-circle.svg" alt="Remover alerta da tela" width="32"
+        height="32" onclick="toggleToast()">
+    </div>
+  </main>
+
+  <script src="./scripts/index.js" type="text/javascript"
+    charset="utf-8"></script>
+</body>
+
+</html>
