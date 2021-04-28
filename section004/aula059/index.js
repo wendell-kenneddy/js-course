@@ -3,7 +3,10 @@
 function Calculator() {
   this.operation = document.getElementById('operation');
 
-  this.addDigit = digit => this.operation.value += digit;
+  this.addDigit = digit => {
+    this.operation.value += digit;
+    this.operation.focus();
+  }
 
   this.eraseDigit = () => this.operation.value = this.operation.value.slice(0, -1);
 
