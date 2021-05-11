@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Wendell Kenneddy">
+  <meta name="creator" content="Wendell Kenneddy">
+  <meta name="description" content="Um validador de CPF gratuito.">
+  <meta name="keywords" content="CPF">
+  <meta property="og:title" content="Validador de CPF">
+  <meta property="og:description" content="Um validador de CPF gratuito.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Validador de CPF">
+  <meta property="og:locale" content="pt-BR">
+  <title>Validador de CPF</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+  <header id="page-header" class="sr-only" role="banner">
+    <h1>Validador de CPF</h1>
+  </header>
+
+  <main class="container">
+    <p>O CPF deve estar no formato 123.456.789-01 para que funcione.</p>
+
+    <label for="cpf">Digite o CPF</label>
+    <input type="text" name="cpf" id="cpf">
+    <button id="validate-btn">Validar</button>
+
+    <p id="validation-result">O resultado aparecerá aqui.</p>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
