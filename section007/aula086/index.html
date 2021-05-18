@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="http-equiv" content="text/html" charset="UTF-8">
+  <meta name="http-equiv" content="text/css" charset="UTF-8">
+  <meta name="http-equiv" content="text/javascript" charset="UTF-8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Wendell Kenneddy">
+  <meta name="creator" content="Wendell Kenneddy">
+  <meta name="description"
+    content="Template de site para resolução de exercícios.">
+  <meta name="keywords" content="Template">
+  <meta property="og:title" content="Template">
+  <meta property="og:description"
+    content="Uma aplicação que calcula seu Índice de Massa Corṕorea.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Template">
+  <meta property="og:locale" content="pt-BR">
+  <title>Template</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+  <header id="page-header" class="sr-only" role="banner">
+    <h1>Formulário de Cadastro</h1>
+  </header>
+
+  <main class="container">
+    <h2>Formulário de Cadastro</h2>
+
+    <ul>
+      <li>Todos os campos devem ser preenchidos.</li>
+      <li>Nome de usuário deve conter somente letras e/ou números.</li>
+      <li>Nome de usuário deve conter de 3 a 12 caracteres.</li>
+      <li>Senha deve conter de 6 a 12 caracteres.</li>
+    </ul>
+
+    <form action="#" id="user-register-form">
+      <label for="user-first-name">Nome:</label>
+      <input type="text" name="user-first-name" id="user-first-name"
+        class="to-validate">
+
+      <div id="user-first-name-error-messages" class="error-messages">
+      </div>
+
+      <label for="user-last-name">Sobrenome:</label>
+      <input type="text" name="user-last-name" id="user-last-name"
+        class="to-validate">
+
+      <div id="user-last-name-error-messages" class="error-messages">
+      </div>
+
+      <label for="user-cpf">CPF:</label>
+      <input type="text" name="user-cpf" id="user-cpf" class="to-validate">
+
+      <div id="user-cpf-error-messages" class="error-messages"></div>
+
+      <label for="user-nick">Usuário:</label>
+      <input type="text" name="user-nick" id="user-nick" class="to-validate">
+
+      <div id="user-nick-error-messages" class="error-messages"></div>
+
+      <label for="user-password">Senha:</label>
+      <input type="password" name="user-password" id="user-password"
+        class="to-validate">
+
+      <div id="user-password-error-messages" class="error-messages"></div>
+
+      <label for="user-repeat-password">Repetir Senha:</label>
+      <input type="password" name="user-repeat-password"
+        id="user-repeat-password" class="to-validate">
+
+      <div id="user-repeat-password-error-messages" class="error-messages">
+      </div>
+
+      <button id="register-user">Cadastrar</button>
+    </form>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
