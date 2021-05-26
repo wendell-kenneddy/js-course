@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "age": 16,
+    "occupation": "Programmer"
+  },
+  {
+    "id": 2,
+    "name": "Mary Doe",
+    "age": 19,
+    "occupation": "Designer"
+  },
+  {
+    "id": 3,
+    "name": "Robert C.",
+    "age": 31,
+    "occupation": "Engineer"
+  },
+  {
+    "id": 4,
+    "name": "Peter Parker",
+    "age": 21,
+    "occupation": "Student"
+  },
+  {
+    "id": 5,
+    "name": "Edwin S.",
+    "age": 19,
+    "occupation": "Apotechary"
+  },
+  {
+    "id": 6,
+    "name": "Kwin Q.",
+    "age": 27,
+    "occupation": "Scientist"
+  },
+  {
+    "id": 7,
+    "name": "Albert W.",
+    "age": 31,
+    "occupation": "Spy"
+  },
+  {
+    "id": 8,
+    "name": "Marin W.",
+    "age": 20,
+    "occupation": "Doctor"
+  },
+  {
+    "id": 9,
+    "name": "Astragold Rubeford",
+    "age": 89,
+    "occupation": "Alchemist"
+  },
+  {
+    "id": 10,
+    "name": "Magnolia Viviard",
+    "age": 90,
+    "occupation": "Writer"
+  }
+]
