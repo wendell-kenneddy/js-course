@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "gerador-de-cpf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Um simples gerador de CPFs válidos.",
   "main": "/src/index.js",
   "scripts": {
     "dev": "webpack -w"

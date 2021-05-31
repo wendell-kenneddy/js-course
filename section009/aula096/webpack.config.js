@@ -5,7 +5,7 @@ module.exports = {
   entry: __dirname + '/src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public', 'dist')
+    path: path.resolve(__dirname, 'public', 'assets')
   },
   module: {
     rules: [
@@ -20,7 +20,7 @@ module.exports = {
         }
       },
       {
-        test: /\.s?css$/,
+        test: /\.css$/,
         use: ['style-loader', 'css-loader']
       }
     ]

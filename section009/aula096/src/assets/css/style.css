@@ -94,7 +94,7 @@ button {
   border: none;
   border-radius: 0.25rem;
   margin-top: 1rem;
-  width: 100%;
+  width: 40%;
   height: 2.5rem;
   font-size: 1rem;
   font-weight: 700;
@@ -105,4 +105,11 @@ button {
 
 button:hover {
   background-color: rgba(0, 147, 233, 0.7);
+}
+
+#cpf-container {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

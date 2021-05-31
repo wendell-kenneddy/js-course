@@ -11,16 +11,14 @@
   <meta name="robots" content="index, follow">
   <meta name="author" content="Wendell Kenneddy">
   <meta name="creator" content="Wendell Kenneddy">
-  <meta name="description"
-    content="Template de site para resolução de exercícios.">
+  <meta name="description" content="Um simples gerador de CPFs válidos.">
   <meta name="keywords" content="Template">
   <meta property="og:title" content="Template">
-  <meta property="og:description"
-    content="Template de site para resolução de exercícios.">
+  <meta property="og:description" content="Um simples gerador de CPFs válidos.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Template">
   <meta property="og:locale" content="pt-BR">
-  <title>Template</title>
+  <title>Gerador de CPF</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
@@ -29,14 +27,17 @@
 
 <body>
   <header id="page-header" class="sr-only" role="banner">
-    <h1>Template</h1>
+    <h1>Gerador de CPF</h1>
   </header>
 
   <main class="container">
-    <h2>Seu conteúdo vai aqui.</h2>
+    <div id="cpf-container">
+      <p id="generated-cpf">O CPF gerado aparecerá aqui.</p>
+      <button id="generate-cpf">Gerar CPF</button>
+    </div>
   </main>
 
-  <script src="./dist/bundle.js"></script>
+  <script src="./assets/bundle.js"></script>
 </body>
 
 </html>
