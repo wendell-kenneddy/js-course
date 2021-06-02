@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="http-equiv" content="text/javascript" charset="UTF-8">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Wendell Kenneddy">
+  <meta name="creator" content="Wendell Kenneddy">
+  <meta name="description" content="Um simples gerador de senhas.">
+  <meta name="keywords" content="Gerador de Senhas">
+  <meta property="og:title" content="Gerador de Senhas">
+  <meta property="og:description" content="Um simples gerador de senhas.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gerador de Senhas">
+  <meta property=" og:locale" content="pt-BR">
+  <title>Gerador de Senhas</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header id="page-header" class="sr-only" role="banner">
+    <h1>Gerador de Senhas</h1>
+  </header>
+
+  <main class="container">
+    <div id="password-container">
+      <p id="generated-password">A senha gerada aparecerá aqui.</p>
+    </div>
+
+    <form action="#" id="pwd-options-form">
+      <div class="label-and-checkbox">
+        <label for="pwd-length">Quantidade de caracteres</label>
+        <input type="number" name="pwd-length" id="pwd-length" step="1">
+      </div>
+
+      <div class="label-and-checkbox">
+        <label for="pwd-with-numbers">Adicionar números</label>
+        <input type="checkbox" name="pwd-with-numbers" id="pwd-with-numbers">
+      </div>
+
+      <div class="label-and-checkbox">
+        <label for="pwd-with-uppercase">Letras maiúsculas</label>
+        <input type="checkbox" name="pwd-with-uppercase"
+          id="pwd-with-uppercase">
+      </div>
+
+      <div class="label-and-checkbox">
+        <label for="pwd-with-lowercase">Letras minúsculas</label>
+        <input type="checkbox" name="pwd-with-lowercase"
+          id="pwd-with-lowercase">
+      </div>
+
+      <div class="label-and-checkbox">
+        <label for="pwd-with-symbols">Símbolos</label>
+        <input type="checkbox" name="pwd-with-symbols" id="pwd-with-symbols">
+      </div>
+
+      <button id="generate-password">Gerar senha</button>
+    </form>
+  </main>
+
+  <script src="./assets/bundle.js"></script>
+</body>
+
+</html>
